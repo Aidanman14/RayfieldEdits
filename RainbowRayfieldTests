@@ -14,8 +14,8 @@ coroutine.wrap(
 	function()
 		while wait() do
 			RainbowColorValue = RainbowColorValue + 1 / 255
-			if VLib.RainbowColorValue >= 1 then
-				VLib.RainbowColorValue = 0
+			if RainbowColorValue >= 1 then
+				RainbowColorValue = 0
 			end
 		end
 	end
